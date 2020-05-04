@@ -32,8 +32,6 @@ header {
     padding-right: 6vh;
 }
 
-
-
 nav {
     flex: 1;
 }
@@ -46,4 +44,10 @@ nav {
     color: #2479f8;
     font-size: 1.3em;    
     text-decoration: none;
+}
+
+.container {
+    border: gray solid 2px;
+    margin: 15px auto;
+    width: 80%; 
 }
