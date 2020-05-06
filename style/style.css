@@ -121,3 +121,40 @@ nav {
     letter-spacing: 2px;
     font-family: 'Bitter', serif;
 }
+
+.style-container {
+    display: block;
+    min-width: 20%;
+    min-height: 80px;
+    margin: 1.25% 2%;
+    padding: 10px 0;
+    
+}
+
+.style-container ul {
+    padding-left: 20px;
+}
+
+/* =========    Bullet list align with text ===========*/
+.style-container ul li  {
+    list-style-position:inside
+   }
+
+#style-header1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Source Code Pro', sans-serif;
+  }
+  
+h2.style-header {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Bitter', sans-serif;
+}
+
+p.style-p {
+    font-weight: 400;
+
+    font-family: 'Poppins', sans-serif;
+  }
