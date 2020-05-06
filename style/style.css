@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins' ,monospace, 'sans serif';
+    margin: 0 10%;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     display: flex;
     height: 14vh;
     margin: 0 auto;
-    width: 80%;
+    
 }
 
 .logo-container, .logo, .nav-links {
@@ -46,8 +47,46 @@ nav {
     text-decoration: none;
 }
 
+/* ============== Main Style */
 .container {
     border: gray solid 2px;
+    padding: 20px 5px;
     margin: 15px auto;
-    width: 80%; 
 }
+
+.section-title {
+    margin-left: 2%;
+}
+
+.container .color-pane {
+    display: inline-block;
+    min-width: 20%;
+    min-height: 80px;
+    margin: 1.25% 2%;
+    padding: 10px 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.zelyony-green {
+    background: #016612;
+}
+
+.yoshi-green {
+    background: #55aa00;
+}
+
+.yellowish-green {
+    background: #b0dd16;
+    color: aqua;
+}
+
+.yellow-green {
+    background: #bff128;
+}
+
+.yellowish-green p, .yellow-green p{
+    
+    color: crimson;
+}
+
