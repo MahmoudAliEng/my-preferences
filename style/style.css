@@ -159,26 +159,59 @@ p.style-p {
     font-family: 'Poppins', sans-serif;
   }
 
-.skills-container, .links-container {
+.skills-container, .links-container, .story-paragraph {
     display: inline-block;
     min-width: 40%;
     height: auto;
-    padding: 10px 0;
     margin: 1% 2%;
+}
+
+.skills-container h2 , .links-container h2 {
+    font-size: 1.75rem;
 }
 
 .skills-container ul , .links-container ul {
     list-style: none;
-    padding-left: 2%;
-    
+    padding-left: 5%;   
 }
 
-.links-container a{
+.skill, .link {
+    display: block;
+}
+ .skills-container li, .links-container a{
     color: black;
+    font-size: 1.25rem;
     text-decoration: none;
+    padding: 1%;
 }
 
 .links-container a:hover{
     color: blue;
+    cursor: pointer;
+}
+
+.color-pane, .story-paragraph, .copyright-text, .style-p, .list-1, .list-2, .list-3 {
+    font-size: 1.25rem;
+}
+
+.story-paragraph {
+    margin-left: 3%;
+}
+hr {
+    margin: 2% 0;
+}
+
+.copyright-text {
     
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright-text a:hover{
+    color: green;
 }
