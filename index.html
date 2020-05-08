@@ -9,6 +9,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Dancing+Script&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css" type="text/css">
+
+    <!-- 
+        Common css design pattern
+
+        .container {
+            width: 50%;
+            height: 200px;
+            overflow: hidden;
+            }
+
+        .container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        }
+
+        ====================
+        Background settings
+        background-image: url('#');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+     -->
 </head>
 <body>
     <header>
@@ -83,26 +106,23 @@
     </main>
     <footer>
         <div class="container">
-            <div class="about-container">
-                <h2>About</h2>
-                <p></p>
-            </div>
+            
+                <h2 id="about" class="section-title">About me</h2>
+
             <div class="skills-container">
                 <h2>Skills</h2>
                 <ul class="skills-list">
-                    <li class="skill"></li>
-                    <li class="skill"></li>
-                    <li class="skill"></li>
-                    <li class="skill"></li>
+                    <li class="skill">Python</li>
+                    <li class="skill">Java</li>
+                    <li class="skill">Data science</li>
                 </ul>
             </div>
             <div class="links-container">
                 <h2>Links</h2>
                 <ul class="links">
-                    <li class="link"></li>
-                    <li class="link"></li>
-                    <li class="link"></li>
-                    <li class="link"></li>
+                    <li><a href="#" class="link">Github</a></li>
+                    <li><a href="#" class="link">LinkedIn</a></li>
+                    <li><a href="#" class="link">YouTube</a></li>
                 </ul>
             </div>
         </div>
